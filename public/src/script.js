@@ -120,6 +120,29 @@
 // document.write(Math.ceil((Math.abs(firstDate - secondDate)) / (24 * 60 * 60 * 1000)))
 
 
-function action(){
-    alert('OK')
+// console.log(document.getElementById('user-name'))
+// console.log(document.getElementsByTagName('input'))
+// console.log(document.getElementsByClassName('text-field'))
+// console.log(document.getElementsByName('name'))
+
+
+// function distributeChar(){
+//     var char = document.getElementById('input').value
+//     document.getElementById('input').value = ''
+
+//     if(isNaN(char)) {
+//         document.getElementById('letter').value += char
+//     } else{
+//         document.getElementById('number').value += char
+//     }
+// }
+
+
+// function changeStyle(color){
+//     document.getElementById('box').style.background = color
+// }
+
+
+function changeClass(){
+    document.getElementById('message').className = 'change-message'
 }

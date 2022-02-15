@@ -8,16 +8,16 @@
 
     <link rel="stylesheet" href="../styles/event.css">
 
-    <script src="../src/script.js"></script>
+<script src="../src/script.js"></script>
+
 </head>
 <body>
-    <input type="text" onfocus="console.log('FOCUS')" onblur="console.log('BLUR')">
-
-    <select onchange="console.log('CHANGE')">
-        <option>-- SELECT --</option>
-        <option value="1">SELECT</option>
-        <option value="2">SELECT</option>
-    </select>
+    <div id="message" class="message">
+        Changing the element class
+        <hr>
+    </div>
+    <button type="button" onclick="changeClass()">Aply class</button>
 </body>
 
+<!-- <script src="../src/script.js"></script> -->
 </html>
